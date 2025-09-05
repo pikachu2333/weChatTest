@@ -1,0 +1,9 @@
+{
+  "src": [
+    "pages/WeChatMainPage",
+    "pages/ChatDetailPage",
+    "pages/ContactsPage",
+    "pages/DiscoverPage",
+    "pages/MePage"
+  ]
+}
