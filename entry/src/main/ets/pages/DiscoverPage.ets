@@ -17,9 +17,9 @@ struct DiscoverPage {
 
   @Builder TabBar() {
     Row() {
-      TabItem({ icon: $r('app.media.ic_wechat_active'), title: '微信', active: true });
+      TabItem({ icon: $r('app.media.ic_wechat_active'), title: '微信', active: false });
       TabItem({ icon: $r('app.media.ic_contacts'),   title: '通讯录', active: false });
-      TabItem({ icon: $r('app.media.ic_discover'),   title: '发现', active: false });
+      TabItem({ icon: $r('app.media.ic_discover'),   title: '发现', active: true });
       TabItem({ icon: $r('app.media.ic_me'),         title: '我', active: false });
     }
     .width('100%').height(56).backgroundColor(Color.White)
